@@ -1,0 +1,716 @@
+2021-10-16 17:33:22.7484 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-10-16 17:33:22.7854 Debug Found assembly location directory: 'C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2021-10-16 17:33:22.7854 Debug Auto loading based on NLog-Assembly found location: C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0
+2021-10-16 17:33:22.7854 Debug Search for auto loading files in location: C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0
+2021-10-16 17:33:22.7854 Debug Found assembly location directory: 'C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0' (umg_clinica_backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+2021-10-16 17:33:22.7854 Debug Auto loading based on GetEntryAssembly-Assembly found location: C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0
+2021-10-16 17:33:22.7854 Debug Auto loading based on AppDomain-BaseDirectory found location: C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0
+2021-10-16 17:33:22.7854 Debug Start auto loading, location: C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0
+2021-10-16 17:33:22.7854 Trace Assembly 'Microsoft.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-10-16 17:33:22.7854 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-10-16 17:33:22.7854 Debug Auto loading done
+2021-10-16 17:33:22.7854 Info Message Template Auto Format enabled
+2021-10-16 17:33:22.8045 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-16 17:33:22.8045 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-10-16 17:33:22.8045 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-10-16 17:33:22.8045 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-10-16 17:33:22.8045 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-16 17:33:22.8045 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-16 17:33:22.8045 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-16 17:33:22.8045 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-10-16 17:33:22.8134 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-10-16 17:33:22.8134 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-10-16 17:33:22.8134 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-16 17:33:22.8134 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-16 17:33:22.8134 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-16 17:33:22.8134 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2021-10-16 17:33:22.8134 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-16 17:33:22.8134 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-10-16 17:33:22.8134 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2021-10-16 17:33:22.8134 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt'
+2021-10-16 17:33:22.8134 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-16 17:33:22.8134 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-10-16 17:33:22.8134 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2021-10-16 17:33:22.8134 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-16 17:33:22.8134 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-10-16 17:33:22.8134 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-10-16 17:33:22.8134 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-10-16 17:33:22.8134 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-16 17:33:22.8134 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-16 17:33:22.8134 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-16 17:33:22.8134 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-10-16 17:33:22.8134 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-10-16 17:33:22.8134 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-10-16 17:33:22.8134 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-16 17:33:22.8134 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-16 17:33:22.8134 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-16 17:33:22.8134 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-10-16 17:33:22.8134 Info Adding target FileTarget(Name=logfile)
+2021-10-16 17:33:22.8134 Debug Registered target logfile: NLog.Targets.FileTarget
+2021-10-16 17:33:22.8134 Trace ParseRulesElement
+2021-10-16 17:33:22.8367 Debug Watching path 'C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0' filter 'NLog.config' for changes.
+2021-10-16 17:33:22.8367 Debug --- NLog configuration dump ---
+2021-10-16 17:33:22.8367 Debug Targets:
+2021-10-16 17:33:22.8367 Debug File Target[logfile]
+2021-10-16 17:33:22.8367 Debug Rules:
+2021-10-16 17:33:22.8367 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2021-10-16 17:33:22.8367 Debug --- End of NLog configuration dump ---
+2021-10-16 17:33:22.8367 Trace FindReachableObject<System.Object>:
+2021-10-16 17:33:22.8367 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2021-10-16 17:33:22.8367 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2021-10-16 17:33:22.8367 Trace  Scanning FileTarget 'File Target[logfile]'
+2021-10-16 17:33:22.8367 Trace   Scanning Property FileName ''C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt'' NLog.Layouts
+2021-10-16 17:33:22.8367 Trace   Scanning SimpleLayout ''C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt''
+2021-10-16 17:33:22.8367 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-16 17:33:22.8367 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-16 17:33:22.8444 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-10-16 17:33:22.8444 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-16 17:33:22.8444 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-10-16 17:33:22.8444 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-10-16 17:33:22.8444 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-16 17:33:22.8444 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-10-16 17:33:22.8444 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-16 17:33:22.8444 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-10-16 17:33:22.8444 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-10-16 17:33:22.8444 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-10-16 17:33:22.8444 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-16 17:33:22.8444 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-16 17:33:22.8444 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-16 17:33:22.8444 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-10-16 17:33:22.8444 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2021-10-16 17:33:22.8444 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2021-10-16 17:33:22.8444 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2021-10-16 17:33:22.8444 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0\NLog.config
+2021-10-16 17:33:22.8444 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2021-10-16 17:33:22.8444 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2021-10-16 17:33:22.8444 Trace Initializing Layout Renderer: ${message}
+2021-10-16 17:33:22.8444 Trace Initializing Layout Renderer: ${literal}
+2021-10-16 17:33:22.8444 Trace Initializing Layout Renderer: ${level}
+2021-10-16 17:33:22.8444 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2021-10-16 17:33:22.8444 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-16 17:33:22.8444 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-10-16 17:33:22.8444 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-16 17:33:22.8444 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-16 17:33:22.8594 Trace Initializing Layout Renderer: ${uppercase}
+2021-10-16 17:33:22.8594 Trace Initializing Layout Renderer: ${literal}
+2021-10-16 17:33:22.8594 Trace Initializing Layout Renderer: ${longdate}
+2021-10-16 17:33:22.8594 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2021-10-16 17:33:22.8594 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-16 17:33:22.8594 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-10-16 17:33:22.8594 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-16 17:33:22.8594 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-10-16 17:33:22.8594 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-16 17:33:22.8594 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-10-16 17:33:22.8594 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-10-16 17:33:22.8594 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-10-16 17:33:22.8594 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-16 17:33:22.8594 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-16 17:33:22.8594 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-16 17:33:22.8594 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-10-16 17:33:22.8594 Trace Initializing Layout Renderer: ${literal}
+2021-10-16 17:33:22.8594 Trace Initializing Layout Renderer: ${shortdate}
+2021-10-16 17:33:22.8594 Trace Initializing Layout Renderer: ${literal}
+2021-10-16 17:33:22.8594 Trace Initializing 'C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt'
+2021-10-16 17:33:22.8594 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-16 17:33:22.8594 Trace Scanning SimpleLayout ''C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt''
+2021-10-16 17:33:22.8594 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-16 17:33:22.8594 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-16 17:33:22.8594 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-10-16 17:33:22.8594 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-16 17:33:22.8594 Trace Initializing File Target[logfile]
+2021-10-16 17:33:22.8594 Trace FindReachableObject<NLog.Layouts.Layout>:
+2021-10-16 17:33:22.8594 Trace Scanning FileTarget 'File Target[logfile]'
+2021-10-16 17:33:22.8594 Trace  Scanning Property FileName ''C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt'' NLog.Layouts
+2021-10-16 17:33:22.8594 Trace  Scanning SimpleLayout ''C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt''
+2021-10-16 17:33:22.8594 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-10-16 17:33:22.8594 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-10-16 17:33:22.8594 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2021-10-16 17:33:22.8594 Trace File Target[logfile] has 2 layouts
+2021-10-16 17:33:22.8594 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2021-10-16 17:33:22.8594 Info Configuration initialized.
+2021-10-16 17:33:22.8950 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-10-16 17:33:22.8950 Debug Targets for umg_clinica_backend.Services.LoggerManager by level:
+2021-10-16 17:33:22.8950 Debug Trace =>
+2021-10-16 17:33:22.8950 Debug Debug => logfile
+2021-10-16 17:33:22.8950 Debug Info => logfile
+2021-10-16 17:33:22.8950 Debug Warn => logfile
+2021-10-16 17:33:22.8950 Debug Error => logfile
+2021-10-16 17:33:22.8950 Debug Fatal => logfile
+2021-10-16 17:33:22.9133 Debug FileTarget(Name=logfile): Preparing for new file 'C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/2021-10-16_logfile.txt'
+2021-10-16 17:33:22.9133 Debug Creating file appender: C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/2021-10-16_logfile.txt
+2021-10-16 17:33:22.9133 Trace Opening C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/2021-10-16_logfile.txt with allowFileSharedWriting=False
+2021-10-16 17:36:34.6491 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-10-16 17:36:34.6797 Debug Found assembly location directory: 'C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2021-10-16 17:36:34.6797 Debug Auto loading based on NLog-Assembly found location: C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0
+2021-10-16 17:36:34.6797 Debug Search for auto loading files in location: C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0
+2021-10-16 17:36:34.6797 Debug Found assembly location directory: 'C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0' (umg_clinica_backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+2021-10-16 17:36:34.6797 Debug Auto loading based on GetEntryAssembly-Assembly found location: C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0
+2021-10-16 17:36:34.6797 Debug Auto loading based on AppDomain-BaseDirectory found location: C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0
+2021-10-16 17:36:34.6797 Debug Start auto loading, location: C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0
+2021-10-16 17:36:34.6797 Trace Assembly 'Microsoft.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-10-16 17:36:34.6797 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-10-16 17:36:34.6797 Debug Auto loading done
+2021-10-16 17:36:34.6882 Info Message Template Auto Format enabled
+2021-10-16 17:36:34.6882 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-16 17:36:34.6882 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-10-16 17:36:34.7048 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-10-16 17:36:34.7048 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-10-16 17:36:34.7048 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-16 17:36:34.7048 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-16 17:36:34.7048 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-16 17:36:34.7048 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-10-16 17:36:34.7048 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-10-16 17:36:34.7048 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-10-16 17:36:34.7048 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-16 17:36:34.7048 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-16 17:36:34.7048 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-16 17:36:34.7048 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2021-10-16 17:36:34.7048 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-16 17:36:34.7048 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-10-16 17:36:34.7048 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2021-10-16 17:36:34.7048 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt'
+2021-10-16 17:36:34.7048 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-16 17:36:34.7048 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-10-16 17:36:34.7048 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2021-10-16 17:36:34.7048 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-16 17:36:34.7048 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-10-16 17:36:34.7048 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-10-16 17:36:34.7048 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-10-16 17:36:34.7048 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-16 17:36:34.7048 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-16 17:36:34.7048 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-16 17:36:34.7188 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-10-16 17:36:34.7188 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-10-16 17:36:34.7188 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-10-16 17:36:34.7188 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-16 17:36:34.7188 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-16 17:36:34.7188 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-16 17:36:34.7188 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-10-16 17:36:34.7188 Info Adding target FileTarget(Name=logfile)
+2021-10-16 17:36:34.7188 Debug Registered target logfile: NLog.Targets.FileTarget
+2021-10-16 17:36:34.7188 Trace ParseRulesElement
+2021-10-16 17:36:34.7188 Debug Watching path 'C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0' filter 'NLog.config' for changes.
+2021-10-16 17:36:34.7188 Debug --- NLog configuration dump ---
+2021-10-16 17:36:34.7345 Debug Targets:
+2021-10-16 17:36:34.7345 Debug File Target[logfile]
+2021-10-16 17:36:34.7345 Debug Rules:
+2021-10-16 17:36:34.7345 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2021-10-16 17:36:34.7345 Debug --- End of NLog configuration dump ---
+2021-10-16 17:36:34.7345 Trace FindReachableObject<System.Object>:
+2021-10-16 17:36:34.7345 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2021-10-16 17:36:34.7345 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2021-10-16 17:36:34.7345 Trace  Scanning FileTarget 'File Target[logfile]'
+2021-10-16 17:36:34.7345 Trace   Scanning Property FileName ''C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt'' NLog.Layouts
+2021-10-16 17:36:34.7345 Trace   Scanning SimpleLayout ''C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt''
+2021-10-16 17:36:34.7345 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-16 17:36:34.7345 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-16 17:36:34.7345 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-10-16 17:36:34.7345 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-16 17:36:34.7345 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-10-16 17:36:34.7345 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-10-16 17:36:34.7345 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-16 17:36:34.7345 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-10-16 17:36:34.7345 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-16 17:36:34.7345 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-10-16 17:36:34.7345 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-10-16 17:36:34.7345 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-10-16 17:36:34.7345 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-16 17:36:34.7345 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-16 17:36:34.7345 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-16 17:36:34.7345 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-10-16 17:36:34.7345 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2021-10-16 17:36:34.7345 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2021-10-16 17:36:34.7345 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2021-10-16 17:36:34.7345 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0\NLog.config
+2021-10-16 17:36:34.7345 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2021-10-16 17:36:34.7519 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2021-10-16 17:36:34.7519 Trace Initializing Layout Renderer: ${message}
+2021-10-16 17:36:34.7519 Trace Initializing Layout Renderer: ${literal}
+2021-10-16 17:36:34.7519 Trace Initializing Layout Renderer: ${level}
+2021-10-16 17:36:34.7519 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2021-10-16 17:36:34.7519 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-16 17:36:34.7519 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-10-16 17:36:34.7519 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-16 17:36:34.7519 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-16 17:36:34.7519 Trace Initializing Layout Renderer: ${uppercase}
+2021-10-16 17:36:34.7519 Trace Initializing Layout Renderer: ${literal}
+2021-10-16 17:36:34.7519 Trace Initializing Layout Renderer: ${longdate}
+2021-10-16 17:36:34.7519 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2021-10-16 17:36:34.7519 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-16 17:36:34.7519 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-10-16 17:36:34.7519 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-16 17:36:34.7519 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-10-16 17:36:34.7519 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-16 17:36:34.7519 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-10-16 17:36:34.7519 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-10-16 17:36:34.7519 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-10-16 17:36:34.7519 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-16 17:36:34.7519 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-16 17:36:34.7519 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-16 17:36:34.7519 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-10-16 17:36:34.7519 Trace Initializing Layout Renderer: ${literal}
+2021-10-16 17:36:34.7519 Trace Initializing Layout Renderer: ${shortdate}
+2021-10-16 17:36:34.7519 Trace Initializing Layout Renderer: ${literal}
+2021-10-16 17:36:34.7519 Trace Initializing 'C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt'
+2021-10-16 17:36:34.7519 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-16 17:36:34.7519 Trace Scanning SimpleLayout ''C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt''
+2021-10-16 17:36:34.7519 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-16 17:36:34.7519 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-16 17:36:34.7519 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-10-16 17:36:34.7519 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-16 17:36:34.7519 Trace Initializing File Target[logfile]
+2021-10-16 17:36:34.7519 Trace FindReachableObject<NLog.Layouts.Layout>:
+2021-10-16 17:36:34.7659 Trace Scanning FileTarget 'File Target[logfile]'
+2021-10-16 17:36:34.7659 Trace  Scanning Property FileName ''C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt'' NLog.Layouts
+2021-10-16 17:36:34.7659 Trace  Scanning SimpleLayout ''C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt''
+2021-10-16 17:36:34.7659 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-10-16 17:36:34.7659 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-10-16 17:36:34.7659 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2021-10-16 17:36:34.7659 Trace File Target[logfile] has 2 layouts
+2021-10-16 17:36:34.7659 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2021-10-16 17:36:34.7659 Info Configuration initialized.
+2021-10-16 17:36:34.7659 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-10-16 17:36:34.7840 Debug Targets for umg_clinica_backend.Services.LoggerManager by level:
+2021-10-16 17:36:34.7840 Debug Trace =>
+2021-10-16 17:36:34.7840 Debug Debug => logfile
+2021-10-16 17:36:34.7840 Debug Info => logfile
+2021-10-16 17:36:34.7840 Debug Warn => logfile
+2021-10-16 17:36:34.7840 Debug Error => logfile
+2021-10-16 17:36:34.7840 Debug Fatal => logfile
+2021-10-16 17:36:34.7993 Debug FileTarget(Name=logfile): Preparing for new file 'C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/2021-10-16_logfile.txt'
+2021-10-16 17:36:34.7993 Debug Creating file appender: C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/2021-10-16_logfile.txt
+2021-10-16 17:36:34.7993 Trace Opening C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/2021-10-16_logfile.txt with allowFileSharedWriting=False
+2021-10-16 17:38:23.2698 Trace Opening C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/2021-10-16_logfile.txt with allowFileSharedWriting=False
+2021-10-17 14:57:02.3900 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-10-17 14:57:02.4192 Debug Found assembly location directory: 'C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2021-10-17 14:57:02.4192 Debug Auto loading based on NLog-Assembly found location: C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0
+2021-10-17 14:57:02.4192 Debug Search for auto loading files in location: C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0
+2021-10-17 14:57:02.4232 Debug Found assembly location directory: 'C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0' (umg_clinica_backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+2021-10-17 14:57:02.4232 Debug Auto loading based on GetEntryAssembly-Assembly found location: C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0
+2021-10-17 14:57:02.4232 Debug Auto loading based on AppDomain-BaseDirectory found location: C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0
+2021-10-17 14:57:02.4232 Debug Start auto loading, location: C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0
+2021-10-17 14:57:02.4232 Trace Assembly 'Microsoft.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-10-17 14:57:02.4232 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-10-17 14:57:02.4232 Debug Auto loading done
+2021-10-17 14:57:02.4232 Info Message Template Auto Format enabled
+2021-10-17 14:57:02.4383 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 14:57:02.4383 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-10-17 14:57:02.4383 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-10-17 14:57:02.4383 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-10-17 14:57:02.4383 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 14:57:02.4383 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-17 14:57:02.4383 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 14:57:02.4383 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-10-17 14:57:02.4383 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-10-17 14:57:02.4383 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-10-17 14:57:02.4383 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-17 14:57:02.4383 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-17 14:57:02.4383 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 14:57:02.4383 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2021-10-17 14:57:02.4383 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 14:57:02.4383 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-10-17 14:57:02.4565 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2021-10-17 14:57:02.4565 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt'
+2021-10-17 14:57:02.4565 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 14:57:02.4565 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-10-17 14:57:02.4565 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2021-10-17 14:57:02.4565 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 14:57:02.4565 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-10-17 14:57:02.4565 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-10-17 14:57:02.4565 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-10-17 14:57:02.4565 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 14:57:02.4565 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-17 14:57:02.4565 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 14:57:02.4565 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-10-17 14:57:02.4565 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-10-17 14:57:02.4565 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-10-17 14:57:02.4565 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-17 14:57:02.4565 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-17 14:57:02.4565 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 14:57:02.4565 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-10-17 14:57:02.4565 Info Adding target FileTarget(Name=logfile)
+2021-10-17 14:57:02.4565 Debug Registered target logfile: NLog.Targets.FileTarget
+2021-10-17 14:57:02.4565 Trace ParseRulesElement
+2021-10-17 14:57:02.4749 Debug Watching path 'C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0' filter 'NLog.config' for changes.
+2021-10-17 14:57:02.4749 Debug --- NLog configuration dump ---
+2021-10-17 14:57:02.4749 Debug Targets:
+2021-10-17 14:57:02.4749 Debug File Target[logfile]
+2021-10-17 14:57:02.4749 Debug Rules:
+2021-10-17 14:57:02.4749 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2021-10-17 14:57:02.4749 Debug --- End of NLog configuration dump ---
+2021-10-17 14:57:02.4749 Trace FindReachableObject<System.Object>:
+2021-10-17 14:57:02.4749 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2021-10-17 14:57:02.4749 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2021-10-17 14:57:02.4749 Trace  Scanning FileTarget 'File Target[logfile]'
+2021-10-17 14:57:02.4749 Trace   Scanning Property FileName ''C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt'' NLog.Layouts
+2021-10-17 14:57:02.4749 Trace   Scanning SimpleLayout ''C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt''
+2021-10-17 14:57:02.4749 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-17 14:57:02.4749 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-17 14:57:02.4749 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-10-17 14:57:02.4749 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-17 14:57:02.4749 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-10-17 14:57:02.4749 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-10-17 14:57:02.4749 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-17 14:57:02.4749 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-10-17 14:57:02.4749 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-17 14:57:02.4852 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-10-17 14:57:02.4852 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-10-17 14:57:02.4852 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-10-17 14:57:02.4852 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-17 14:57:02.4852 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-17 14:57:02.4852 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-17 14:57:02.4852 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-10-17 14:57:02.4852 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2021-10-17 14:57:02.4852 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2021-10-17 14:57:02.4852 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2021-10-17 14:57:02.4852 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0\NLog.config
+2021-10-17 14:57:02.4852 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2021-10-17 14:57:02.4852 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2021-10-17 14:57:02.4852 Trace Initializing Layout Renderer: ${message}
+2021-10-17 14:57:02.4852 Trace Initializing Layout Renderer: ${literal}
+2021-10-17 14:57:02.4852 Trace Initializing Layout Renderer: ${level}
+2021-10-17 14:57:02.4852 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2021-10-17 14:57:02.4852 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 14:57:02.4852 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-10-17 14:57:02.4852 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-17 14:57:02.4852 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-17 14:57:02.5015 Trace Initializing Layout Renderer: ${uppercase}
+2021-10-17 14:57:02.5015 Trace Initializing Layout Renderer: ${literal}
+2021-10-17 14:57:02.5015 Trace Initializing Layout Renderer: ${longdate}
+2021-10-17 14:57:02.5015 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2021-10-17 14:57:02.5015 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 14:57:02.5015 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-10-17 14:57:02.5015 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-17 14:57:02.5015 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-10-17 14:57:02.5015 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-17 14:57:02.5015 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-10-17 14:57:02.5015 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-10-17 14:57:02.5015 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-10-17 14:57:02.5015 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-17 14:57:02.5015 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-17 14:57:02.5015 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-17 14:57:02.5015 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-10-17 14:57:02.5015 Trace Initializing Layout Renderer: ${literal}
+2021-10-17 14:57:02.5015 Trace Initializing Layout Renderer: ${shortdate}
+2021-10-17 14:57:02.5015 Trace Initializing Layout Renderer: ${literal}
+2021-10-17 14:57:02.5015 Trace Initializing 'C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt'
+2021-10-17 14:57:02.5015 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 14:57:02.5015 Trace Scanning SimpleLayout ''C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt''
+2021-10-17 14:57:02.5015 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-17 14:57:02.5015 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-17 14:57:02.5015 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-10-17 14:57:02.5015 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-17 14:57:02.5015 Trace Initializing File Target[logfile]
+2021-10-17 14:57:02.5015 Trace FindReachableObject<NLog.Layouts.Layout>:
+2021-10-17 14:57:02.5015 Trace Scanning FileTarget 'File Target[logfile]'
+2021-10-17 14:57:02.5015 Trace  Scanning Property FileName ''C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt'' NLog.Layouts
+2021-10-17 14:57:02.5015 Trace  Scanning SimpleLayout ''C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt''
+2021-10-17 14:57:02.5015 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-10-17 14:57:02.5015 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-10-17 14:57:02.5015 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2021-10-17 14:57:02.5015 Trace File Target[logfile] has 2 layouts
+2021-10-17 14:57:02.5015 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2021-10-17 14:57:02.5015 Info Configuration initialized.
+2021-10-17 14:57:02.5216 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-10-17 14:57:02.5216 Debug Targets for umg_clinica_backend.Services.LoggerManager by level:
+2021-10-17 14:57:02.5216 Debug Trace =>
+2021-10-17 14:57:02.5216 Debug Debug => logfile
+2021-10-17 14:57:02.5216 Debug Info => logfile
+2021-10-17 14:57:02.5216 Debug Warn => logfile
+2021-10-17 14:57:02.5216 Debug Error => logfile
+2021-10-17 14:57:02.5216 Debug Fatal => logfile
+2021-10-17 14:57:02.5397 Debug FileTarget(Name=logfile): Preparing for new file 'C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/2021-10-17_logfile.txt'
+2021-10-17 14:57:02.5397 Debug Creating file appender: C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/2021-10-17_logfile.txt
+2021-10-17 14:57:02.5397 Trace Opening C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/2021-10-17_logfile.txt with allowFileSharedWriting=False
+2021-10-17 14:57:02.5486 Trace Opening C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/2021-10-17_logfile.txt with allowFileSharedWriting=False
+2021-10-17 15:01:01.4391 Trace Opening C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/2021-10-17_logfile.txt with allowFileSharedWriting=False
+2021-10-17 15:01:01.4391 Trace Opening C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/2021-10-17_logfile.txt with allowFileSharedWriting=False
+2021-10-17 15:01:52.8408 Trace Opening C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/2021-10-17_logfile.txt with allowFileSharedWriting=False
+2021-10-17 15:01:52.8408 Trace Opening C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/2021-10-17_logfile.txt with allowFileSharedWriting=False
+2021-10-17 15:03:14.3232 Trace Opening C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/2021-10-17_logfile.txt with allowFileSharedWriting=False
+2021-10-17 15:18:21.2002 Trace Opening C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/2021-10-17_logfile.txt with allowFileSharedWriting=False
+2021-10-17 15:19:00.0450 Trace Opening C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/2021-10-17_logfile.txt with allowFileSharedWriting=False
+2021-10-17 15:31:08.4685 Trace Opening C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/2021-10-17_logfile.txt with allowFileSharedWriting=False
+2021-10-17 16:45:00.1988 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-10-17 16:45:00.2268 Debug Found assembly location directory: 'C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2021-10-17 16:45:00.2268 Debug Auto loading based on NLog-Assembly found location: C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0
+2021-10-17 16:45:00.2268 Debug Search for auto loading files in location: C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0
+2021-10-17 16:45:00.2268 Debug Found assembly location directory: 'C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0' (umg_clinica_backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+2021-10-17 16:45:00.2352 Debug Auto loading based on GetEntryAssembly-Assembly found location: C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0
+2021-10-17 16:45:00.2352 Debug Auto loading based on AppDomain-BaseDirectory found location: C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0
+2021-10-17 16:45:00.2352 Debug Start auto loading, location: C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0
+2021-10-17 16:45:00.2352 Trace Assembly 'Microsoft.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-10-17 16:45:00.2352 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-10-17 16:45:00.2352 Debug Auto loading done
+2021-10-17 16:45:00.2352 Info Message Template Auto Format enabled
+2021-10-17 16:45:00.2352 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 16:45:00.2508 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-10-17 16:45:00.2508 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-10-17 16:45:00.2508 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-10-17 16:45:00.2508 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 16:45:00.2508 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-17 16:45:00.2508 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 16:45:00.2508 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-10-17 16:45:00.2508 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-10-17 16:45:00.2508 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-10-17 16:45:00.2508 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-17 16:45:00.2508 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-17 16:45:00.2508 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 16:45:00.2508 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2021-10-17 16:45:00.2508 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 16:45:00.2508 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-10-17 16:45:00.2508 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2021-10-17 16:45:00.2658 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt'
+2021-10-17 16:45:00.2658 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 16:45:00.2658 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-10-17 16:45:00.2658 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2021-10-17 16:45:00.2658 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 16:45:00.2658 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-10-17 16:45:00.2658 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-10-17 16:45:00.2658 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-10-17 16:45:00.2658 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 16:45:00.2658 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-17 16:45:00.2658 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 16:45:00.2658 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-10-17 16:45:00.2658 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-10-17 16:45:00.2658 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-10-17 16:45:00.2658 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-17 16:45:00.2658 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-17 16:45:00.2658 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 16:45:00.2658 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-10-17 16:45:00.2658 Info Adding target FileTarget(Name=logfile)
+2021-10-17 16:45:00.2658 Debug Registered target logfile: NLog.Targets.FileTarget
+2021-10-17 16:45:00.2658 Trace ParseRulesElement
+2021-10-17 16:45:00.2845 Debug Watching path 'C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0' filter 'NLog.config' for changes.
+2021-10-17 16:45:00.2845 Debug --- NLog configuration dump ---
+2021-10-17 16:45:00.2845 Debug Targets:
+2021-10-17 16:45:00.2845 Debug File Target[logfile]
+2021-10-17 16:45:00.2845 Debug Rules:
+2021-10-17 16:45:00.2845 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2021-10-17 16:45:00.2845 Debug --- End of NLog configuration dump ---
+2021-10-17 16:45:00.2845 Trace FindReachableObject<System.Object>:
+2021-10-17 16:45:00.2845 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2021-10-17 16:45:00.2845 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2021-10-17 16:45:00.2845 Trace  Scanning FileTarget 'File Target[logfile]'
+2021-10-17 16:45:00.2845 Trace   Scanning Property FileName ''C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt'' NLog.Layouts
+2021-10-17 16:45:00.2845 Trace   Scanning SimpleLayout ''C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt''
+2021-10-17 16:45:00.2845 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-17 16:45:00.2845 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-17 16:45:00.2845 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-10-17 16:45:00.2845 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-17 16:45:00.2845 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-10-17 16:45:00.2845 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-10-17 16:45:00.2845 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-17 16:45:00.2845 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-10-17 16:45:00.2845 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-17 16:45:00.2845 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-10-17 16:45:00.2845 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-10-17 16:45:00.2845 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-10-17 16:45:00.2845 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-17 16:45:00.2845 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-17 16:45:00.2845 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-17 16:45:00.2845 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-10-17 16:45:00.2974 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2021-10-17 16:45:00.2974 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2021-10-17 16:45:00.2974 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2021-10-17 16:45:00.2974 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0\NLog.config
+2021-10-17 16:45:00.2974 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2021-10-17 16:45:00.2974 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2021-10-17 16:45:00.2974 Trace Initializing Layout Renderer: ${message}
+2021-10-17 16:45:00.2974 Trace Initializing Layout Renderer: ${literal}
+2021-10-17 16:45:00.2974 Trace Initializing Layout Renderer: ${level}
+2021-10-17 16:45:00.2974 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2021-10-17 16:45:00.2974 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 16:45:00.2974 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-10-17 16:45:00.2974 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-17 16:45:00.2974 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-17 16:45:00.2974 Trace Initializing Layout Renderer: ${uppercase}
+2021-10-17 16:45:00.2974 Trace Initializing Layout Renderer: ${literal}
+2021-10-17 16:45:00.2974 Trace Initializing Layout Renderer: ${longdate}
+2021-10-17 16:45:00.2974 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2021-10-17 16:45:00.2974 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 16:45:00.2974 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-10-17 16:45:00.2974 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-17 16:45:00.2974 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-10-17 16:45:00.2974 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-17 16:45:00.2974 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-10-17 16:45:00.2974 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-10-17 16:45:00.2974 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-10-17 16:45:00.2974 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-17 16:45:00.2974 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-17 16:45:00.3131 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-17 16:45:00.3131 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-10-17 16:45:00.3131 Trace Initializing Layout Renderer: ${literal}
+2021-10-17 16:45:00.3131 Trace Initializing Layout Renderer: ${shortdate}
+2021-10-17 16:45:00.3131 Trace Initializing Layout Renderer: ${literal}
+2021-10-17 16:45:00.3131 Trace Initializing 'C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt'
+2021-10-17 16:45:00.3131 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 16:45:00.3131 Trace Scanning SimpleLayout ''C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt''
+2021-10-17 16:45:00.3131 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-17 16:45:00.3131 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-17 16:45:00.3131 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-10-17 16:45:00.3131 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-17 16:45:00.3131 Trace Initializing File Target[logfile]
+2021-10-17 16:45:00.3131 Trace FindReachableObject<NLog.Layouts.Layout>:
+2021-10-17 16:45:00.3131 Trace Scanning FileTarget 'File Target[logfile]'
+2021-10-17 16:45:00.3131 Trace  Scanning Property FileName ''C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt'' NLog.Layouts
+2021-10-17 16:45:00.3131 Trace  Scanning SimpleLayout ''C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt''
+2021-10-17 16:45:00.3131 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-10-17 16:45:00.3131 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-10-17 16:45:00.3131 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2021-10-17 16:45:00.3131 Trace File Target[logfile] has 2 layouts
+2021-10-17 16:45:00.3131 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2021-10-17 16:45:00.3131 Info Configuration initialized.
+2021-10-17 16:45:00.3131 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-10-17 16:45:00.3321 Debug Targets for umg_clinica_backend.Services.LoggerManager by level:
+2021-10-17 16:45:00.3321 Debug Trace =>
+2021-10-17 16:45:00.3321 Debug Debug => logfile
+2021-10-17 16:45:00.3321 Debug Info => logfile
+2021-10-17 16:45:00.3321 Debug Warn => logfile
+2021-10-17 16:45:00.3321 Debug Error => logfile
+2021-10-17 16:45:00.3321 Debug Fatal => logfile
+2021-10-17 16:45:00.3490 Debug FileTarget(Name=logfile): Preparing for new file 'C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/2021-10-17_logfile.txt'
+2021-10-17 16:45:00.3490 Debug Creating file appender: C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/2021-10-17_logfile.txt
+2021-10-17 16:45:00.3490 Trace Opening C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/2021-10-17_logfile.txt with allowFileSharedWriting=False
+2021-10-17 18:15:12.8463 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-10-17 18:15:12.8769 Debug Found assembly location directory: 'C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2021-10-17 18:15:12.8769 Debug Auto loading based on NLog-Assembly found location: C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0
+2021-10-17 18:15:12.8769 Debug Search for auto loading files in location: C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0
+2021-10-17 18:15:12.8769 Debug Found assembly location directory: 'C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0' (umg_clinica_backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+2021-10-17 18:15:12.8769 Debug Auto loading based on GetEntryAssembly-Assembly found location: C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0
+2021-10-17 18:15:12.8769 Debug Auto loading based on AppDomain-BaseDirectory found location: C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0
+2021-10-17 18:15:12.8769 Debug Start auto loading, location: C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0
+2021-10-17 18:15:12.8769 Trace Assembly 'Microsoft.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-10-17 18:15:12.8769 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-10-17 18:15:12.8769 Debug Auto loading done
+2021-10-17 18:15:12.8769 Info Message Template Auto Format enabled
+2021-10-17 18:15:12.8975 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 18:15:12.8975 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-10-17 18:15:12.8975 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-10-17 18:15:12.8975 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-10-17 18:15:12.8975 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 18:15:12.8975 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-17 18:15:12.8975 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 18:15:12.8975 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-10-17 18:15:12.9071 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-10-17 18:15:12.9071 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-10-17 18:15:12.9071 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-17 18:15:12.9071 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-17 18:15:12.9071 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 18:15:12.9071 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2021-10-17 18:15:12.9071 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 18:15:12.9071 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-10-17 18:15:12.9071 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2021-10-17 18:15:12.9071 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt'
+2021-10-17 18:15:12.9071 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 18:15:12.9071 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-10-17 18:15:12.9071 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2021-10-17 18:15:12.9071 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 18:15:12.9071 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-10-17 18:15:12.9071 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-10-17 18:15:12.9071 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-10-17 18:15:12.9071 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 18:15:12.9071 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-17 18:15:12.9071 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 18:15:12.9071 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-10-17 18:15:12.9071 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-10-17 18:15:12.9071 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-10-17 18:15:12.9071 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-17 18:15:12.9071 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-17 18:15:12.9071 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 18:15:12.9071 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-10-17 18:15:12.9071 Info Adding target FileTarget(Name=logfile)
+2021-10-17 18:15:12.9071 Debug Registered target logfile: NLog.Targets.FileTarget
+2021-10-17 18:15:12.9071 Trace ParseRulesElement
+2021-10-17 18:15:12.9327 Debug Watching path 'C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0' filter 'NLog.config' for changes.
+2021-10-17 18:15:12.9327 Debug --- NLog configuration dump ---
+2021-10-17 18:15:12.9327 Debug Targets:
+2021-10-17 18:15:12.9327 Debug File Target[logfile]
+2021-10-17 18:15:12.9327 Debug Rules:
+2021-10-17 18:15:12.9327 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2021-10-17 18:15:12.9327 Debug --- End of NLog configuration dump ---
+2021-10-17 18:15:12.9327 Trace FindReachableObject<System.Object>:
+2021-10-17 18:15:12.9382 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2021-10-17 18:15:12.9382 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2021-10-17 18:15:12.9382 Trace  Scanning FileTarget 'File Target[logfile]'
+2021-10-17 18:15:12.9382 Trace   Scanning Property FileName ''C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt'' NLog.Layouts
+2021-10-17 18:15:12.9382 Trace   Scanning SimpleLayout ''C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt''
+2021-10-17 18:15:12.9382 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-17 18:15:12.9382 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-17 18:15:12.9382 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-10-17 18:15:12.9382 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-17 18:15:12.9382 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-10-17 18:15:12.9382 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-10-17 18:15:12.9382 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-17 18:15:12.9382 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-10-17 18:15:12.9382 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-17 18:15:12.9382 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-10-17 18:15:12.9382 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-10-17 18:15:12.9382 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-10-17 18:15:12.9382 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-17 18:15:12.9382 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-17 18:15:12.9382 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-17 18:15:12.9382 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-10-17 18:15:12.9382 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2021-10-17 18:15:12.9382 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2021-10-17 18:15:12.9382 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2021-10-17 18:15:12.9382 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0\NLog.config
+2021-10-17 18:15:12.9382 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2021-10-17 18:15:12.9382 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2021-10-17 18:15:12.9382 Trace Initializing Layout Renderer: ${message}
+2021-10-17 18:15:12.9382 Trace Initializing Layout Renderer: ${literal}
+2021-10-17 18:15:12.9382 Trace Initializing Layout Renderer: ${level}
+2021-10-17 18:15:12.9382 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2021-10-17 18:15:12.9538 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 18:15:12.9538 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-10-17 18:15:12.9538 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-17 18:15:12.9538 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-17 18:15:12.9538 Trace Initializing Layout Renderer: ${uppercase}
+2021-10-17 18:15:12.9538 Trace Initializing Layout Renderer: ${literal}
+2021-10-17 18:15:12.9538 Trace Initializing Layout Renderer: ${longdate}
+2021-10-17 18:15:12.9538 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2021-10-17 18:15:12.9538 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 18:15:12.9538 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-10-17 18:15:12.9538 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-17 18:15:12.9538 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-10-17 18:15:12.9538 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-17 18:15:12.9538 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-10-17 18:15:12.9538 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-10-17 18:15:12.9538 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-10-17 18:15:12.9538 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-17 18:15:12.9538 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-10-17 18:15:12.9538 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-17 18:15:12.9538 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-10-17 18:15:12.9538 Trace Initializing Layout Renderer: ${literal}
+2021-10-17 18:15:12.9538 Trace Initializing Layout Renderer: ${shortdate}
+2021-10-17 18:15:12.9538 Trace Initializing Layout Renderer: ${literal}
+2021-10-17 18:15:12.9538 Trace Initializing 'C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt'
+2021-10-17 18:15:12.9538 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-10-17 18:15:12.9538 Trace Scanning SimpleLayout ''C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt''
+2021-10-17 18:15:12.9538 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-10-17 18:15:12.9538 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-17 18:15:12.9538 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-10-17 18:15:12.9538 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-10-17 18:15:12.9538 Trace Initializing File Target[logfile]
+2021-10-17 18:15:12.9538 Trace FindReachableObject<NLog.Layouts.Layout>:
+2021-10-17 18:15:12.9538 Trace Scanning FileTarget 'File Target[logfile]'
+2021-10-17 18:15:12.9538 Trace  Scanning Property FileName ''C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt'' NLog.Layouts
+2021-10-17 18:15:12.9538 Trace  Scanning SimpleLayout ''C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/${shortdate}_logfile.txt''
+2021-10-17 18:15:12.9538 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-10-17 18:15:12.9538 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-10-17 18:15:12.9538 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2021-10-17 18:15:12.9538 Trace File Target[logfile] has 2 layouts
+2021-10-17 18:15:12.9538 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2021-10-17 18:15:12.9538 Info Configuration initialized.
+2021-10-17 18:15:12.9741 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-10-17 18:15:12.9741 Debug Targets for umg_clinica_backend.Services.LoggerManager by level:
+2021-10-17 18:15:12.9741 Debug Trace =>
+2021-10-17 18:15:12.9741 Debug Debug => logfile
+2021-10-17 18:15:12.9741 Debug Info => logfile
+2021-10-17 18:15:12.9741 Debug Warn => logfile
+2021-10-17 18:15:12.9741 Debug Error => logfile
+2021-10-17 18:15:12.9741 Debug Fatal => logfile
+2021-10-17 18:15:12.9918 Debug FileTarget(Name=logfile): Preparing for new file 'C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/2021-10-17_logfile.txt'
+2021-10-17 18:15:12.9918 Debug Creating file appender: C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/2021-10-17_logfile.txt
+2021-10-17 18:15:12.9918 Trace Opening C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/2021-10-17_logfile.txt with allowFileSharedWriting=False
+2021-10-17 18:15:24.1240 Trace Opening C:/Users/Andre/Desktop/UMG/DesarrolloWeb/Clinica/BACKEND/umg_clinica_backend/Log/2021-10-17_logfile.txt with allowFileSharedWriting=False
