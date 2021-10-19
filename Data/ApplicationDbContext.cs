@@ -18,6 +18,8 @@ namespace umg_clinica_backend.Data
         public DbSet<tipo_personal> tipo_personal { get; set; }
         public DbSet<clinica> clinica { get; set; }
         public DbSet<Usuarios> Usuarios { get; set; }
+        public DbSet<Roles> Roles { get; set; }
+        public DbSet<Usuarios_Roles> Usuarios_Roles { get; set; }
 
     }
 }

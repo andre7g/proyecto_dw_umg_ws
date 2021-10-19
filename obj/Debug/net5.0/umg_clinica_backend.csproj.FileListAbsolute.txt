@@ -44,3 +44,4 @@ C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\obj
 C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Andre\Desktop\UMG\DesarrolloWeb\Clinica\BACKEND\umg_clinica_backend\obj\Debug\net5.0\umg_clinica_backend.csproj.AssemblyReference.cache
