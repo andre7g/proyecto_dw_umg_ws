@@ -25,6 +25,9 @@ namespace umg_clinica_backend.Helpers
             _services.AddTransient<LoginInterface, LoginService>();
             _services.AddTransient<RolesInterface, RolesService>();
             _services.AddTransient<Usuarios_RolesInterface, Usuarios_RolesService>();
+            _services.AddTransient<PacienteInterface, PacienteService>();
+            _services.AddTransient<ProductosInterface, ProductosService>();
+            _services.AddTransient<EnfermedadesInterface, EnfermedadesService>();
 
         }
     }

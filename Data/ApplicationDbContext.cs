@@ -20,6 +20,13 @@ namespace umg_clinica_backend.Data
         public DbSet<Usuarios> Usuarios { get; set; }
         public DbSet<Roles> Roles { get; set; }
         public DbSet<Usuarios_Roles> Usuarios_Roles { get; set; }
+        public DbSet<Paciente> Paciente { get; set; }
+        public DbSet<Via_Administracion_Producto> Via_Administracion_Producto { get; set; }
+        public DbSet<Marca> Marca { get; set; }
+        public DbSet<Dosis> Dosis { get; set; }
+        public DbSet<Presentacion> Presentacion { get; set; }
+        public DbSet<Productos> Productos { get; set; }
+        public DbSet<Enfermedades> Enfermedades { get; set; }
 
     }
 }
