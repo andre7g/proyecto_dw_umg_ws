@@ -27,6 +27,9 @@ namespace umg_clinica_backend.Data
         public DbSet<Presentacion> Presentacion { get; set; }
         public DbSet<Productos> Productos { get; set; }
         public DbSet<Enfermedades> Enfermedades { get; set; }
+        public DbSet<Area> Area { get; set; }
+        public DbSet<Habitacion> Habitacion { get; set; }
+        public DbSet<Habitacion_Paciente> Habitacion_Paciente { get; set; }
 
     }
 }

@@ -10,47 +10,47 @@ using umg_clinica_backend.Models.Response;
 
 namespace umg_clinica_backend.Services
 {
-    public class ProductosService : ProductosInterface
+    public class HabitacionService : HabitacionInterface
     {
         private readonly ApplicationDbContext _context;
         private readonly ILoggerManager _Ilogger;
-        public ProductosService(ApplicationDbContext Context, ILoggerManager Ilogger)
+        public HabitacionService(ApplicationDbContext Context, ILoggerManager Ilogger)
         {
             _context = Context;
             _Ilogger = Ilogger;
         }
-        public async Task<Response> CreateProducto(Productos _productos)
+        public async Task<Response> CreateHabitacion(Habitacion _habitacion)
         {
             Response res = new Response();
             try
             {
-                _context.Productos.Add(_productos);
+                _context.Habitacion.Add(_habitacion);
                 await _context.SaveChangesAsync();
 
                 res.Status = 200;
                 res.Mensaje = "Guardado con Exito.";
-                res.Data = _productos;
-                _Ilogger.LogDebug("Metodo CreateProducto exitoso.");
+                res.Data = _habitacion;
+                _Ilogger.LogDebug("Metodo CreateHabitacion exitoso.");
             }
             catch (Exception ex)
             {
-                _Ilogger.LogError("Error en metodo CreateProducto: " + ex.Message + ".--" + ex.InnerException + ".--" + ex.Source);
+                _Ilogger.LogError("Error en metodo CreateHabitacion: " + ex.Message + ".--" + ex.InnerException + ".--" + ex.Source);
                 _Ilogger.LogDebug("----------- Fin transaccion ----------");
                 res.Mensaje = "Error: " + ex;
                 res.Status = 500;
-                res.Data = _productos;
+                res.Data = _habitacion;
             }
             return res;
         }
 
-        public Response GetProductos()
+        public Response GetHabitacion()
         {
-            IEnumerable<Productos> list = _context.Productos.Include(x => x.Via_Administracion_Producto).Include(x => x.Marca).Include(x => x.Dosis).Include(x => x.Presentacion).Include(x => x.Estados).ToList();
+            IEnumerable<Habitacion> list = _context.Habitacion.Include(x => x.Area).Include(x => x.Clinica).Include(x => x.Estados).ToList();
             Response res = new Response();
             if (list.Count() != 0)
             {
                 res.Status = 200;
-                res.Mensaje = "Lista de Productos obtenida correctamente.";
+                res.Mensaje = "Lista de Habitaciones obtenida correctamente.";
                 res.Data = list;
                 return res;
             }
@@ -60,14 +60,14 @@ namespace umg_clinica_backend.Services
             return res;
         }
 
-        public Response GetProductosActivos(int estado_Id)
+        public Response GetHabitacionsActivos(int estado_Id)
         {
-            IEnumerable<Productos> list = _context.Productos.Where(x => x.Estados_Id == estado_Id).ToList();
+            IEnumerable<Habitacion> list = _context.Habitacion.Where(x => x.Estados_Id == estado_Id).ToList();
             Response res = new Response();
             if (list.Count() != 0)
             {
                 res.Status = 200;
-                res.Mensaje = "Lista de Productos obtenida correctamente.";
+                res.Mensaje = "Lista de Habitacion obtenida correctamente.";
                 res.Data = list;
                 return res;
             }
@@ -77,14 +77,14 @@ namespace umg_clinica_backend.Services
             return res;
         }
 
-        public Response ShowProducto(int Id)
+        public Response ShowHabitacion(int Id)
         {
-            Productos data = _context.Productos.Where(x => x.Id == Id).FirstOrDefault();
+            Habitacion data = _context.Habitacion.Where(x => x.Id == Id).FirstOrDefault();
             Response res = new Response();
             if (data != null)
             {
                 res.Status = 200;
-                res.Mensaje = "Producto obtenido correctamente.";
+                res.Mensaje = "Habitacion obtenida correctamente.";
                 res.Data = data;
                 return res;
             }
@@ -94,26 +94,26 @@ namespace umg_clinica_backend.Services
             return res;
         }
 
-        public async Task<Response> UpdateProducto(int id, Productos _productos)
+        public async Task<Response> UpdateHabitacion(int id, Habitacion _habitacion)
         {
-            _productos.Id = id;
+            _habitacion.Id = id;
             Response res = new Response();
             try
             {
-                _context.Productos.Update(_productos);
+                _context.Habitacion.Update(_habitacion);
                 await _context.SaveChangesAsync();
                 res.Mensaje = "Modificado con exito.";
                 res.Status = 200;
-                res.Data = _productos;
-                _Ilogger.LogDebug("Metodo UpdateProducto exitoso.");
+                res.Data = _habitacion;
+                _Ilogger.LogDebug("Metodo UpdateRol exitoso.");
             }
             catch (DbUpdateConcurrencyException ex)
             {
-                _Ilogger.LogError("Error en metodo UpdateProducto: " + ex.Message + ".--" + ex.InnerException + ".--" + ex.Source);
+                _Ilogger.LogError("Error en metodo UpdateRol: " + ex.Message + ".--" + ex.InnerException + ".--" + ex.Source);
                 _Ilogger.LogDebug("----------- Fin transaccion ----------");
                 res.Mensaje = "Error: " + ex;
                 res.Status = 500;
-                res.Data = _productos;
+                res.Data = _habitacion;
             }
             return res;
         }

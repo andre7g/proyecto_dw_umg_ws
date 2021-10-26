@@ -1,0 +1,26 @@
+2021-10-23 12:03:56.5828 ERROR Error en metodo CreateHabitacion: An error occurred while updating the entries. See the inner exception for details..--MySqlConnector.MySqlException (0x80004005): Unknown column 'Clinica_Id' in 'field list'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsyncAwaited(ValueTask`1 task) in /_/src/MySqlConnector/Core/ServerSession.cs:line 888
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 50
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 135
+   at MySqlConnector.MySqlDataReader.CreateAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 444
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(IReadOnlyList`1 commands, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 60
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 319
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 312
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken).--Microsoft.EntityFrameworkCore.Relational
+2021-10-23 12:03:56.6005 DEBUG ----------- Fin transaccion ----------
+2021-10-23 12:09:12.1285 DEBUG Metodo CreateHabitacion exitoso.
+2021-10-23 13:06:27.7620 DEBUG Metodo CreateHabitacion exitoso.
+2021-10-23 13:06:33.8284 DEBUG Metodo CreateHabitacion exitoso.
+2021-10-23 13:06:37.3716 DEBUG Metodo CreateHabitacion exitoso.
+2021-10-23 13:06:41.9262 DEBUG Metodo CreateHabitacion exitoso.
+2021-10-23 13:06:45.6127 DEBUG Metodo CreateHabitacion exitoso.
+2021-10-23 13:06:49.5443 DEBUG Metodo CreateHabitacion exitoso.
+2021-10-23 13:06:52.9428 DEBUG Metodo CreateHabitacion exitoso.
+2021-10-23 13:06:56.6641 DEBUG Metodo CreateHabitacion exitoso.
+2021-10-23 13:07:00.7121 DEBUG Metodo CreateHabitacion exitoso.
+2021-10-23 13:31:42.7696 DEBUG Metodo CreateHabitacion exitoso.
+2021-10-23 13:31:59.1160 DEBUG Metodo CreateHabitacion exitoso.
+2021-10-23 13:32:02.1167 DEBUG Metodo CreateHabitacion exitoso.
+2021-10-23 13:32:27.6039 DEBUG Metodo UpdateHabitacion_Paciente exitoso.

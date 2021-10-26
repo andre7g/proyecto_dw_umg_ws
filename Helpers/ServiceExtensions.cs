@@ -28,6 +28,12 @@ namespace umg_clinica_backend.Helpers
             _services.AddTransient<PacienteInterface, PacienteService>();
             _services.AddTransient<ProductosInterface, ProductosService>();
             _services.AddTransient<EnfermedadesInterface, EnfermedadesService>();
+            _services.AddTransient<DosisInterface, DosisService>();
+            _services.AddTransient<MarcaInterface, MarcaService>();
+            _services.AddTransient<PresentacionInterface, PresentacionService>();
+            _services.AddTransient<Via_Administracion_ProductoInterface, Via_Administracion_ProductoService>();
+            _services.AddTransient<HabitacionInterface, HabitacionService>();
+            _services.AddTransient<Habitacion_PacienteInterface, Habitacion_PacienteService>();
 
         }
     }
