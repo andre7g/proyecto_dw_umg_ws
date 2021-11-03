@@ -1,0 +1,16 @@
+2021-11-03 15:18:30.0623 DEBUG Metodo CreateProducto exitoso.
+2021-11-03 15:44:17.9435 DEBUG Metodo CreateProducto exitoso.
+2021-11-03 16:21:53.6457 DEBUG Metodo CreateProducto exitoso.
+2021-11-03 16:24:08.7720 DEBUG Metodo UpdateProducto exitoso.
+2021-11-03 16:24:17.0676 DEBUG Metodo UpdateProducto exitoso.
+2021-11-03 16:24:27.0161 DEBUG Metodo UpdateProducto exitoso.
+2021-11-03 16:24:39.5679 DEBUG Metodo UpdateProducto exitoso.
+2021-11-03 16:33:21.1475 DEBUG Metodo UpdateProducto exitoso.
+2021-11-03 16:33:34.9521 DEBUG Metodo UpdateProducto exitoso.
+2021-11-03 16:33:47.7645 DEBUG Metodo UpdateProducto exitoso.
+2021-11-03 17:03:56.7107 DEBUG Metodo CreateProducto exitoso.
+2021-11-03 17:06:33.1579 DEBUG Metodo UpdateProducto exitoso.
+2021-11-03 17:06:44.0838 DEBUG Metodo UpdateProducto exitoso.
+2021-11-03 17:06:54.0409 DEBUG Metodo UpdateProducto exitoso.
+2021-11-03 17:07:04.6158 DEBUG Metodo UpdateProducto exitoso.
+2021-11-03 17:07:16.2174 DEBUG Metodo UpdateProducto exitoso.

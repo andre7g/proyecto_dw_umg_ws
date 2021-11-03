@@ -18,5 +18,6 @@ namespace umg_clinica_backend.Interfaces
         public Task<Response> UpdateProducto(int id, Productos _productos);
 
         public Response GetProductosActivos(int estado_Id);
+        public Response GetProductosActivosByFuncion(int funcion_Id);
     }
 }

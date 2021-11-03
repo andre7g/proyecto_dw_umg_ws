@@ -34,6 +34,7 @@ namespace umg_clinica_backend.Helpers
             _services.AddTransient<Via_Administracion_ProductoInterface, Via_Administracion_ProductoService>();
             _services.AddTransient<HabitacionInterface, HabitacionService>();
             _services.AddTransient<Habitacion_PacienteInterface, Habitacion_PacienteService>();
+            _services.AddTransient<Funcion_MedicamentoInterface, Funcion_MedicamentoService>();
 
         }
     }

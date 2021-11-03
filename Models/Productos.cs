@@ -18,7 +18,7 @@ namespace umg_clinica_backend.Models
         public string Nombre { get; set; }
 
         [Required(ErrorMessage = "El campo Descripcion es requerido.")]
-        [MaxLength(45, ErrorMessage = "El máximo de caracteres permitidos es de 45.")]
+        [MaxLength(2000, ErrorMessage = "El máximo de caracteres permitidos es de 2000.")]
         public string Descripcion { get; set; }
 
         [Required(ErrorMessage = "El campo Estados_Id es requerido.")]
@@ -45,5 +45,15 @@ namespace umg_clinica_backend.Models
         public int Presentacion_Id { get; set; }
         [ForeignKey("Presentacion_Id")]
         public virtual Presentacion Presentacion { get; set; }
+
+        [MaxLength(256, ErrorMessage = "El máximo de caracteres permitidos es de 256.")]
+        public string path { get; set; }
+
+        public decimal precio { get; set; }
+
+        [Required(ErrorMessage = "El campo funcion_medicamento_Id es requerido.")]
+        public int funcion_medicamento_Id { get; set; }
+        [ForeignKey("funcion_medicamento_Id")]
+        public virtual Funcion_medicamento Funcion_medicamento { get; set; }
     }
 }

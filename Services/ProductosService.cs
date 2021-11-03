@@ -45,7 +45,7 @@ namespace umg_clinica_backend.Services
 
         public Response GetProductos()
         {
-            IEnumerable<Productos> list = _context.Productos.Include(x => x.Via_Administracion_Producto).Include(x => x.Marca).Include(x => x.Dosis).Include(x => x.Presentacion).Include(x => x.Estados).ToList();
+            IEnumerable<Productos> list = _context.Productos.Include(x => x.Via_Administracion_Producto).Include(x => x.Marca).Include(x => x.Dosis).Include(x => x.Presentacion).Include(x => x.Estados).Include(x => x.Funcion_medicamento).ToList();
             Response res = new Response();
             if (list.Count() != 0)
             {
@@ -63,6 +63,24 @@ namespace umg_clinica_backend.Services
         public Response GetProductosActivos(int estado_Id)
         {
             IEnumerable<Productos> list = _context.Productos.Where(x => x.Estados_Id == estado_Id).ToList();
+            Response res = new Response();
+            if (list.Count() != 0)
+            {
+                res.Status = 200;
+                res.Mensaje = "Lista de Productos obtenida correctamente.";
+                res.Data = list;
+                return res;
+            }
+            res.Status = 400;
+            res.Mensaje = "No se encontraron registros";
+            res.Data = null;
+            return res;
+        }
+
+        public Response GetProductosActivosByFuncion(int funcion_Id)
+        {
+            IEnumerable<Productos> list = _context.Productos.Where(x => x.Estados_Id == 1 && x.funcion_medicamento_Id == funcion_Id).Include(x => x.Via_Administracion_Producto).Include(x => x.Marca).Include(x => x.Dosis).Include(x => x.Presentacion).Include(x => x.Estados).Include(x => x.Funcion_medicamento).ToList();
+
             Response res = new Response();
             if (list.Count() != 0)
             {

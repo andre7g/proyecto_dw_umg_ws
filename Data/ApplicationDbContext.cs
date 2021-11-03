@@ -30,6 +30,7 @@ namespace umg_clinica_backend.Data
         public DbSet<Area> Area { get; set; }
         public DbSet<Habitacion> Habitacion { get; set; }
         public DbSet<Habitacion_Paciente> Habitacion_Paciente { get; set; }
+        public DbSet<Funcion_medicamento> Funcion_medicamento { get; set; }
 
     }
 }

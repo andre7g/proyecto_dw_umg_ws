@@ -24,7 +24,7 @@ namespace umg_clinica_backend.Services
             Habitacion data = _context.Habitacion.Where(x => x.Id == _habitacion_Paciente.Habitacion_Id).FirstOrDefault();
 
             Response reshabitacion = new Response();
-            reshabitacion = await UpdateHabitacion(data);
+            reshabitacion = await UpdateHabitacion(data,4);
             Response res = new Response();
             if (reshabitacion.Status == 200)
             {
@@ -87,6 +87,11 @@ namespace umg_clinica_backend.Services
 
         public async Task<Response> UpdateHabitacion_Paciente(int id, Habitacion_Paciente _habitacion_Paciente)
         {
+            Habitacion data = _context.Habitacion.Where(x => x.Id == _habitacion_Paciente.Habitacion_Id).FirstOrDefault();
+
+            Response reshabitacion = new Response();
+            reshabitacion = await UpdateHabitacion(data, 3);
+
             _habitacion_Paciente.Id = id;
             Response res = new Response();
             try
@@ -109,9 +114,9 @@ namespace umg_clinica_backend.Services
             return res;
         }
 
-        public async Task<Response> UpdateHabitacion(Habitacion _habitacion)
+        public async Task<Response> UpdateHabitacion(Habitacion _habitacion,int estasdo_Id)
         {
-            _habitacion.Estados_Id = 4;
+            _habitacion.Estados_Id = estasdo_Id;
             Response res = new Response();
             try
             {

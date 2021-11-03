@@ -26,7 +26,11 @@ namespace umg_clinica_backend.Controllers
         // GET: api/values
         [HttpGet]
         [Route("GetProductosActivos/{estado_Id?}")]
-        public Response GetProductosActivos(int estado_Id) => _IProductos.GetProductosActivos(estado_Id);
+        public Response GetProductosActivos(int estado_Id) => _IProductos.GetProductosActivos(estado_Id);        
+        // GET: api/values
+        [HttpGet]
+        [Route("GetProductosActivosByFuncion/{funcion_Id?}")]
+        public Response GetProductosActivosByFuncion(int funcion_Id) => _IProductos.GetProductosActivosByFuncion(funcion_Id);
 
         // GET api/values/5
         [HttpGet("{id}")]
